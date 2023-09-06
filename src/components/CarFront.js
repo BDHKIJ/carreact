@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar,Toolbar, Typography } from '@mui/material';
-import CarList from './components/CarList';
-import Login from './components/Login';
+import CarList from './CarList';
+import Login from './Login';
 function CarFront({isAuthenticated,loginAuth,logoutAuth}) {
     return (
         <div>
